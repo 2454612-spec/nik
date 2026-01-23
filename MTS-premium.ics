@@ -5,12 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 
 BEGIN:VEVENT
-UID:mts-premium-123456@example
+UID:mts-premium-0001@pilot
 DTSTAMP:20260122T120000Z
 SUMMARY:Списание за МТС Premium — 299 ₽
 DTSTART;VALUE=DATE:20260215
+DTEND;VALUE=DATE:20260216
 RRULE:FREQ=MONTHLY;COUNT=6
-DESCRIPTION:Регулярное списание за подписку. Управлять или отключить подписку можно в приложении.\n\nКак удалить/изменить: откройте событие в календаре → Изменить/Удалить → выберите «Только это» или «Все повторения».
+DESCRIPTION:Регулярное списание за подписку. Управлять или отключить подписку можно в приложении.\n\nКак удалить/изменить: откройте событие → Изменить/Удалить → выберите «Только это» или «Все повторения».
 END:VEVENT
 
 END:VCALENDAR
