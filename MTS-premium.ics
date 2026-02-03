@@ -6,11 +6,12 @@ METHOD:PUBLISH
 BEGIN:VEVENT
 UID:pay-<token>@yourcompany
 DTSTAMP:20260203T120000Z
-SUMMARY:Списание по подписке
+SUMMARY:Списание по подписке1
 DTSTART;TZID=Europe/Amsterdam:20260210T090000
 DTEND;TZID=Europe/Amsterdam:20260210T091000
 RRULE:FREQ=MONTHLY;INTERVAL=1;COUNT=6
 DESCRIPTION:Напоминание о списании в течение 6 месяцев.
 END:VEVENT
 END:VCALENDAR
+
 
