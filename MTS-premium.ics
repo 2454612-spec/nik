@@ -1,17 +1,16 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//MTS//Billing Calendar Pilot//RU
+PRODID:-//YourCompany//Payments//RU
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-
 BEGIN:VEVENT
-UID:mts-premium-0001@pilot
-DTSTAMP:20260122T120000Z
-SUMMARY:Списание за МТС Premium — 299 ₽
-DTSTART;VALUE=DATE:20260215
-DTEND;VALUE=DATE:20260216
-RRULE:FREQ=MONTHLY;COUNT=6
-DESCRIPTION:Регулярное списание за подписку. Управлять или отключить подписку можно в приложении.\n\nКак удалить/изменить: откройте событие → Изменить/Удалить → выберите «Только это» или «Все повторения».
+UID:pay-<token>@yourcompany
+DTSTAMP:20260203T120000Z
+SUMMARY:Списание по подписке
+DTSTART;TZID=Europe/Amsterdam:20260210T090000
+DTEND;TZID=Europe/Amsterdam:20260210T091000
+RRULE:FREQ=MONTHLY;INTERVAL=1;COUNT=6
+DESCRIPTION:Напоминание о списании в течение 6 месяцев.
 END:VEVENT
-
 END:VCALENDAR
+
